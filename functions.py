@@ -15,24 +15,24 @@ def check_event():
         # Ship movement
         if GOL.get_go(Player):
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_d:
+                if event.key == pygame.K_d or event.key == pygame.K_RIGHT:
                     GOL.get_go(Player).moving_right = True
-                if event.key == pygame.K_a:
+                if event.key == pygame.K_a or event.key == pygame.K_LEFT:
                     GOL.get_go(Player).moving_left = True
-                if event.key == pygame.K_w:
+                if event.key == pygame.K_w or event.key == pygame.K_UP:
                     GOL.get_go(Player).moving_up = True
-                if event.key == pygame.K_s:
+                if event.key == pygame.K_s or event.key == pygame.K_DOWN:
                     GOL.get_go(Player).moving_down = True
                 if event.key == pygame.K_SPACE:
                     GOL.get_go(Player).firing = True
             elif event.type == pygame.KEYUP:
-                if event.key == pygame.K_d:
+                if event.key == pygame.K_d or event.key == pygame.K_RIGHT:
                     GOL.get_go(Player).moving_right = False
-                if event.key == pygame.K_a:
+                if event.key == pygame.K_a or event.key == pygame.K_LEFT:
                     GOL.get_go(Player).moving_left = False
-                if event.key == pygame.K_w:
+                if event.key == pygame.K_w or event.key == pygame.K_UP:
                     GOL.get_go(Player).moving_up = False
-                if event.key == pygame.K_s:
+                if event.key == pygame.K_s or event.key == pygame.K_DOWN:
                     GOL.get_go(Player).moving_down = False
                 if event.key == pygame.K_SPACE:
                     GOL.get_go(Player).firing = False
