@@ -1,0 +1,85 @@
+{
+    "1": {
+        "delay": 3,
+        "title": "LEVEL 1",
+        "spawns": [
+            {
+                "type": "alien1",
+                "x": 50,
+                "timer": 0
+            },
+            {
+                "type": "alien1",
+                "x": 150,
+                "timer": 3
+            },
+            {
+                "type": "alien2",
+                "x": 250,
+                "timer": 5
+            },
+            {
+                "type": "alien1",
+                "x": 800,
+                "timer": 1
+            }
+        ]
+    },
+    "2": {
+        "delay": 3,
+        "title": "LEVEL 2",
+        "spawns": [
+            {
+                "type": "alien2",
+                "x": 600,
+                "timer": 1
+            },
+            {
+                "type": "alien2",
+                "x": 100,
+                "timer": 2
+            },
+            {
+                "type": "alien2",
+                "x": 500,
+                "timer": 3
+            }
+        ]
+    },
+    "3": {
+        "delay": 3,
+        "title": "LEVEL 3",
+        "spawns": [
+            {
+                "type": "alien2",
+                "x": 600,
+                "timer": 1
+            },
+            {
+                "type": "alien2",
+                "x": 100,
+                "timer": 2
+            },
+            {
+                "type": "alien2",
+                "x": 500,
+                "timer": 3
+            },
+            {
+                "type": "alien1",
+                "x": 100,
+                "timer": 3
+            },
+            {
+                "type": "alien1",
+                "x": 700,
+                "timer": 3
+            },
+            {
+                "type": "alien1",
+                "x": 1100,
+                "timer": 3
+            }
+        ]
+    }
+}
